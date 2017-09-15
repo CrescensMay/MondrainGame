@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mac.mondrain.MainActivity"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="318dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        android:paddingTop="8dp"
+        android:text="@string/welcom_to_mondrain"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:ellipsize="marquee"/>
+
+    <TextView
+        android:id="@+id/textFieldMiddle2"
+        android:layout_width="255dp"
+        android:layout_height="72dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="188dp"
+        android:background="@android:color/holo_blue_bright"
+        android:maxWidth="300dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/textFieldTop2"
+        android:layout_width="255dp"
+        android:layout_height="94dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="84dp"
+        android:background="@android:color/holo_blue_bright"
+        android:maxWidth="300dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/textFieldTop1"
+        android:layout_width="128dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textFieldMiddle1"
+        android:layout_width="128dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="188dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textFieldBottom1"
+        android:layout_width="37dp"
+        android:layout_height="133dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="268dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textFieldBottom2"
+        android:layout_width="84dp"
+        android:layout_height="133dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="268dp"
+        android:background="@android:color/holo_green_dark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textFieldBottom3"
+        android:layout_width="154dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="268dp"
+        android:background="@android:color/holo_blue_dark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textFieldBottom4"
+        android:layout_width="154dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="362dp"
+        android:background="@android:color/holo_purple"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textFieldBottom5"
+        android:layout_width="91dp"
+        android:layout_height="133dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="268dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+</android.support.constraint.ConstraintLayout>
